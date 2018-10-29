@@ -1,7 +1,6 @@
-package com.example.umairmunirahmad.roomdatabase.activity;
+package com.example.umairmunirahmad.mvvm.view.ui.activities;
 
 import android.arch.lifecycle.Observer;
-import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,10 +9,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.umairmunirahmad.roomdatabase.R;
-
 import android.arch.lifecycle.ViewModelProviders;
 import android.widget.Toast;
+
+import com.example.umairmunirahmad.mvvm.R;
+import com.example.umairmunirahmad.mvvm.model.local.database.entities.User;
+import com.example.umairmunirahmad.mvvm.viewmodel.UserViewModel;
 
 import java.util.List;
 

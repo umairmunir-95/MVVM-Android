@@ -1,4 +1,4 @@
-package com.example.umairmunirahmad.roomdatabase;
+package com.example.umairmunirahmad.mvvm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

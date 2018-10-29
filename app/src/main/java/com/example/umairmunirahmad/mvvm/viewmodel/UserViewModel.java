@@ -1,9 +1,12 @@
-package com.example.umairmunirahmad.roomdatabase.activity;
+package com.example.umairmunirahmad.mvvm.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.support.annotation.NonNull;
+
+import com.example.umairmunirahmad.mvvm.model.repositories.UserRepository;
+import com.example.umairmunirahmad.mvvm.model.local.database.entities.User;
 
 import java.util.List;
 

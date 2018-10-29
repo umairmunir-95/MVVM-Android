@@ -1,8 +1,12 @@
-package com.example.umairmunirahmad.roomdatabase.activity;
+package com.example.umairmunirahmad.mvvm.model.repositories;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
+
+import com.example.umairmunirahmad.mvvm.model.local.database.daos.UserDao;
+import com.example.umairmunirahmad.mvvm.model.local.database.database.UserDatabase;
+import com.example.umairmunirahmad.mvvm.model.local.database.entities.User;
 
 import java.util.List;
 

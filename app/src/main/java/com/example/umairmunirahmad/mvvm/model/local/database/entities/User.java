@@ -1,4 +1,4 @@
-package com.example.umairmunirahmad.roomdatabase.activity;
+package com.example.umairmunirahmad.mvvm.model.local.database.entities;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;

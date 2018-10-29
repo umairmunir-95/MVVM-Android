@@ -1,4 +1,4 @@
-package com.example.umairmunirahmad.roomdatabase;
+package com.example.umairmunirahmad.mvvm;
 
 import org.junit.Test;
 
